@@ -21,7 +21,7 @@ describe('ProductsService', function () {
     expect(serviceResponse.status).to.deep.equal('SUCCESFUL');
   });
 
-  it('Verficai a listagem de produtos', async function() {
+  it('Verfica a listagem de produtos', async function() {
   
     sinon.stub(ProductModel, 'findAll').resolves(allProducts as any);
     const serviceResponse = await productsService.getAll();
