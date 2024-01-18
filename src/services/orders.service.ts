@@ -24,7 +24,7 @@ async function getAll(): Promise<ServiceResponse<Order[]>> {
 
   const formatedOrders = ordersWithProducts
     .map((order) => order.dataValues)
-    .map((order: any) => ({ ...order,
+    .map((order) => ({ ...order,
       productIds: order.productIds.map((product: Product) => product.id) }));
 
   return { status: 'SUCCESFUL', data: formatedOrders };

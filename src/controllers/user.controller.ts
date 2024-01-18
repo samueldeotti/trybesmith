@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { usersService } from '../services';
 
-const responseStatus: any = {
+const responseStatus = {
   SUCCESFUL: 200,
   INVALID_DATA: 400,
   UNAUTHORIZED: 401,
+  NOT_FOUND: 404,
 };
 
 async function login(req: Request, res: Response) {
