@@ -21,7 +21,7 @@ Para a geração e verificação de tokens foi utilizado o ***JWT*** (JSON Web T
 
 1. Navegue até o local onde deseja clonar o repositório e utilize o **git clone**:
 ```
-git clone git@github.com:samueldeotti/project-trybesmith.git
+git clone git@github.com:samueldeotti/trybesmith.git
 ```
 
 2. Acesse o diretório do projeto **project-trybesmith** e rode os serviços **node** e **db** com os seguintes comandos:
